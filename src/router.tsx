@@ -8,7 +8,7 @@ import ShopComponent from './components/pages/shop/shop'
 import PagesComponet from './components/pages/pages/pages'
 import FeaturedComponet from './components/pages/featured/featured'
 import ContactComponent from './components/pages/contact/contact'
-import CategoryComponent from './components/pages/home/mockdata/category'
+import CollectionComponent from './components/pages/home/collection'
 
 
 const RouterComponent = () => {
@@ -23,7 +23,7 @@ const RouterComponent = () => {
         <Route path='/blog' element= {<BlogsComponent/>}/>
         <Route path='/featured' element= {<FeaturedComponet/>}/>
         <Route path='/contact' element= {<ContactComponent/>}/>
-        <Route path='/CategoryDetail' element= {<CategoryComponent/>}/>
+        <Route path='/collection' element= {<CollectionComponent/>}/>
     </Routes>
     <Footer/>
     </>
